@@ -2,7 +2,7 @@
 
 void main ()
 {
-int a[1000], n, k, i;
+int a[1000], n, k, i, sum=0;
 scanf ("%d%d", n ,k);
 
 if (n>0 && k>0)
