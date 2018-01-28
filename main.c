@@ -3,12 +3,12 @@
 void main ()
 {
   int a[1000], n, k, i, sum=0;
-  scanf ("%d%d", n ,k);
+  scanf ("%d\n%d", &n , &k);
 
   if (n>0 && k>0)
   {
     for (i=0; i<n; i++)
-      scanf ("%d", &a[i]);
+      scanf ("%d\n", &a[i]);
 
     for (i=0; i<k; i++)
       sum=sum+a[i];
@@ -17,4 +17,3 @@ void main ()
   else
     printf ("invalid input");
 }
-  
